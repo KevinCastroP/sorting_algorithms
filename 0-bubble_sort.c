@@ -4,8 +4,8 @@
 /**
  * _swap - Entry for swap
  * Desc: _swap function
- * @first: int pointer
- *
+ * @array: int pointer
+ * @pos: size position
  **/
 void _swap(int *array, size_t pos)
 {
@@ -19,7 +19,7 @@ void _swap(int *array, size_t pos)
  * bubble_sort - Entry point
  * Desc: bubble_sort function
  * @array: int char type
- * @size_t: structure size_t type
+ * @size: structure size_t type
  * Return: Function that sorts an array of integers
  **/
 void bubble_sort(int *array, size_t size)
