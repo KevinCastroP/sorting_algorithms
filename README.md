@@ -23,7 +23,7 @@ The goal of sorting algorithms will always be the output of a sorted list. There
 
 ## Tasks
 
-_**0. Bubble sort**_
+_**0. Bubble sort**_  
 Write a function that sorts an array of integers in ascending order using the **Bubble sort** algorithm
 
 - Prototype: `void bubble_sort(int *array, size_t size);`
@@ -35,7 +35,7 @@ Write in the file `0-O`, the big O notations of the time complexity of the Bubbl
 - in the average case
 - in the worst case
 
-_**1. Insertion sort**_
+_**1. Insertion sort**_  
 Write a function that sorts a doubly linked list of integers in ascending order using the **Insertion sort** algorithm
 
 - Prototype: `void insertion_sort_list(listint_t **list);`
@@ -48,7 +48,7 @@ Write in the file `1-O`, the big O notations of the time complexity of the Inser
 - in the average case
 - in the worst case
 
-_**2. Selection sort**_
+_**2. Selection sort**_  
 Write a function that sorts an array of integers in ascending order using the **Selection sort** algorithm
 
 - Prototype: `void selection_sort(int *array, size_t size);`
@@ -60,7 +60,7 @@ Write in the file `2-O`, the big O notations of the time complexity of the Selec
 - in the average case
 - in the worst case
 
-_**3. Quick sort**_
+_**3. Quick sort**_  
 Write a function that sorts an array of integers in ascending order using the **Quick sort** algorithm
 
 - Prototype: `void quick_sort(int *array, size_t size);`
