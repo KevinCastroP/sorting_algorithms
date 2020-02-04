@@ -25,5 +25,7 @@ void bubble_sort(int *array, size_t size);
 void swap(int *array, size_t pos);
 /*function to sort a double linked list isertion sort*/
 void insertion_sort_list(listint_t **list);
+/*function to sort an array of integers in ascending order*/
+void selection_sort(int *array, size_t size);
 
 #endif /* SORT_H */
