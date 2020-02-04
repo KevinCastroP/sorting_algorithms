@@ -1,5 +1,7 @@
 #ifndef SORT_H
 #define SORT_H
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef unsigned long size_t;
 
