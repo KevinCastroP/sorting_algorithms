@@ -1,6 +1,10 @@
 #include "sort.h"
 /**
- *
+ * selection_sort - function to sort an array of integers
+ * in ascending order
+ * @array: pointer to list
+ * @size: length of array
+ * Return: nothing
  */
 void selection_sort(int *array, size_t size)
 {
@@ -10,7 +14,7 @@ void selection_sort(int *array, size_t size)
 	if (size < 2)
 		return;
 
-	for (a = 0; a < (size -1); a++)
+	for (a = 0; a < (size - 1); a++)
 	{
 		size_t bMin = a;
 
